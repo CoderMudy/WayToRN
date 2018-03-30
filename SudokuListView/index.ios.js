@@ -58,7 +58,7 @@ var SudokuListView = React.createClass({
     return(
         <TouchableOpacity>
           <View style={styles.innerViewStyle}>
-            <Image source={{uri: rowData.icon}}/>
+            <Image source={{uri: rowData.icon}} style={styles.iconStyle}/>
             <Text>{rowData.title}</Text>
           </View>
         </TouchableOpacity>
